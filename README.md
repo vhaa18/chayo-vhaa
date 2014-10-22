@@ -1,5 +1,16 @@
 chayo-vhaa
 ==========
-CVS adalah kakek dari sistem kontrol revisi. Ini pertama kali dirilis pada tahun 1986, dan Google Code masih host posting Usenet asli mengumumkan CVS. CVS adalah standar de facto dan diinstal hampir di mana-mana. Namun, basis kode tidak sepenuhnya tampil sebagai SVN atau solusi lain.
-Kurva belajar tidak terlalu curam untuk CVS, dan itu adalah sistem yang sangat sederhana untuk memastikan file dan revisi yang terus up to date. Sementara CVS mungkin merupakan teknologi yang lebih tua, itu masih cukup berguna untuk setiap desainer atau pengembang untuk membuat cadangan dan berbagi file.
-Kura-kura CVS adalah klien besar untuk CVS pada Windows, dan ada banyak IDE yang berbeda, seperti Xcode (Mac), Eclipse , NetBeans dan Emacs , yang menggunakan CVS.
+1. Bazaar
+    Bazaar (sumber: http://bazaar.canonical.com/en/)
+Bazaar (sumber: http://bazaar.canonical.com/en/)
+Bazaar merupakan bagian dari GNU Project, Bazaar adalah free software yang disponsori oleh Canonical. Salah satu layanan yang menggunakan Bazaar adalah Launchpad, sebuah tempat dimana aplikasi Ubuntu dikembangkan dan dipantau oleh komunitas. Bazaar dapat digunakan di Windows, Ubuntu, Debian, Red Hat, SUSE, OS X, FreeBSD, Solaris, Gentoo, dan lainnya.
+Bazaar memiliki versi GUI yang dapat memudahkan pengguna, Anda dapat bekerja secara offline dengan menggunakan Bazaar, mempunyai sistem any workflow, gatekeeper workflow, dan centralized workflow, mempunyai fitur rename tracking dan smart merging, dan kecepatan dan efisiensi penyimpanan yang sangat tinggi. Saat ini Bazaar berada di versi 2.6.0
+contoh penggunaan Bazaar (dikutip dari Dokumentasi Bazaar):
+$ bzr init-repo sample
+Shared repository with trees (format: 2a)
+Location:
+  shared repository: sample
+$ bzr init sample/trunk
+$ cd sample/trunk
+Created a repository tree (format: 2a)
+Using shared repository: /home/john/sample/
